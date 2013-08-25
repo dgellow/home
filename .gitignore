@@ -1,0 +1,30 @@
+# Set a white list
+/*
+
+# Temp files
+*~
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# Git
+!/.gitignore
+!/.gitconfig
+
+# Bash
+!/.bashrc
+!/.bash_profile
+!/.git-prompt.sh
+!/.profile
+
+# Vim
+!/.vimrc
+
+# Emacs
+!/.emacs
+!/.emacs.d/
+/.emacs.d/*
+!/.emacs.d/themes/
+!/.emacs.d/functions/
