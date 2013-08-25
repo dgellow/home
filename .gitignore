@@ -19,6 +19,11 @@
 !/.git-prompt.sh
 !/.profile
 
+# Screenshots
+!/Images/
+/Images/*
+!/Images/Captures/
+
 # Vim
 !/.vimrc
 
