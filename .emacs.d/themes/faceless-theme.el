@@ -22,9 +22,9 @@
  '(minibuffer-message ((t (:foreground "#ffffff"))))
 
  '(font-lock-keyword-face ((t (:foreground "#3ca380"))))
- '(font-lock-type-face ((t (:foreground "#484879"))))
- '(font-lock-constant-face ((t (:foreground "#3F5C70"))))
- '(font-lock-variable-name-face ((t (:foreground "#547B96"))))
+ '(font-lock-type-face ((t (:foreground "steel blue"))))
+ '(font-lock-constant-face ((t (:foreground "cadet blue"))))
+ '(font-lock-variable-name-face ((t (:foreground "light blue"))))
  '(font-lock-builtin-face ((t (:foreground "#6767AE"))))
  '(font-lock-string-face ((t (:foreground "#699ABC"))))
  '(font-lock-comment-face ((t (:foreground "#496b83"))))
