@@ -18,6 +18,15 @@
 (setq cursor-type '(bar . 1))
 
 ;;--------------------------------------------------------------------
+;; Ido
+(require 'ido)
+(ido-mode t)
+
+;;--------------------------------------------------------------------
+;; Rinari
+(require 'rinari)
+
+;;--------------------------------------------------------------------
 ;; Save minibuffer history
 (savehist-mode 1)
 
@@ -106,7 +115,7 @@
  ;; If there is more than one, they won't work right.
  '(blink-cursor-mode nil)
  '(custom-enabled-themes (quote (faceless)))
- '(custom-safe-themes (quote ("00634b398f36147c9b908ef0612e62a14cec021790f7a7d755e7aeff5435ec5f" "078766705446db0045d5fd080d0b56a9419792544b8d2343ebaca7e0146985d9" "1d928fab880d758dce81e6ff8e1176ef7cfdf238e5933dcd565832e10371c9e9" default)))
+ '(custom-safe-themes (quote ("34d26daceb2ca8e1cdd00fa7b96a6e9161f74d992b701454075898a7a237d4ef" default)))
  '(fringe-mode (quote (nil . 0)) nil (fringe))
  '(global-rainbow-delimiters-mode t)
  '(linum-format " %7i ")
@@ -149,3 +158,4 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :stipple nil :background "#202020" :foreground "#cacaca" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 113 :width normal :foundry "unknown" :family "Droid Sans Mono")))))
+
