@@ -55,6 +55,10 @@
 (require 'ruby-electric)
 (add-hook 'ruby-mode-hook (lambda () (ruby-electric-mode t)))
 
+;; disable show-trailing-whitespace
+(add-hook 'ruby-mode-hook (lambda ()
+                            (setq show-trailing-whitespace nil)))
+
 ;;--------------------------------------------------------------------
 ;; Auto-complete
 (add-to-list 'load-path "~/.emacs.d/elpa/auto-complete-20130724.1750") 
