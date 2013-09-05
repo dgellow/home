@@ -33,3 +33,8 @@
 /.emacs.d/*
 !/.emacs.d/themes/
 !/.emacs.d/functions/
+
+# SSH
+!/.ssh
+/.ssh/*
+!/.ssh/id_rsa.pub
