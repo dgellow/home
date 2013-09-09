@@ -23,6 +23,7 @@
 !/Images/
 /Images/*
 !/Images/Captures/
+!/Images/Working/
 
 # Vim
 !/.vimrc
