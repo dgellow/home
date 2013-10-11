@@ -26,6 +26,13 @@
 (ido-mode t)
 
 ;;--------------------------------------------------------------------
+;; Flx-ido
+(require 'flx-ido)
+(flx-ido-mode t)
+;; disable ido faces to see flx highlights.
+(setq ido-use-faces nil)
+
+;;--------------------------------------------------------------------
 ;; Slime
 (setq inferior-lisp-program "/usr/bin/sbcl")
 (add-to-list 'load-path "/usr/share/emacs/site-lisp/slime/")
