@@ -169,38 +169,12 @@
  '(sr-speedbar-right-side nil)
  '(tool-bar-mode nil))
 
-;; 
-;; My custom configuration is now is the faceless theme.
-;;
-;; (custom-set-faces
-;;  custom-set-faces was added by Custom.
-;;  If you edit it by hand, you could mess it up, so be careful.
-;;  Your init file should contain only one such instance.
-;;  If there is more than one, they won't work right.
-;;  '(default ((t (:inherit nil :stipple nil :background "#202020" :foreground "#cacaca" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 113 :width normal :foundry "unknown" :family "Droid Sans Mono"))))
-
-;;  '(mode-line ((t (:background "yellow green" :foreground "black"))))
-;;  '(mode-line-buffer-id ((t nil)))
-;;  '(mode-line-emphasis ((t (:underline t))))
-
-;;  '(powerline-active1 ((t (:inherit mode-line :background "gray21" :foreground "white"))))
-;;  '(powerline-active2 ((t (:inherit mode-line :background "gray46"))))
-;;  '(powerline-inactive1 ((t (:inherit mode-line-inactive :background "gray20" :foreground "white smoke"))))
-;;  '(powerline-inactive2 ((t (:inherit mode-line-inactive :background "gray46"))))
-
-;;  '(rainbow-delimiters-depth-2-face ((t (:foreground "green"))))
-;;  '(rainbow-delimiters-depth-3-face ((t (:foreground "cyan"))))
-;;  '(rainbow-delimiters-depth-4-face ((t (:foreground "deep sky blue"))))
-;;  '(rainbow-delimiters-depth-5-face ((t (:foreground "blue"))))
-;;  '(rainbow-delimiters-depth-6-face ((t (:foreground "magenta"))))
-;;  '(rainbow-delimiters-depth-7-face ((t (:foreground "dark violet"))))
-;;  '(rainbow-delimiters-depth-8-face ((t (:foreground "cyan"))))
-;;  '(rainbow-delimiters-depth-9-face ((t (:foreground "blue violet"))))
-;;  '(rainbow-delimiters-unmatched-face ((t (:foreground "orange red")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:inherit nil :stipple nil :background "#202020" :foreground "#cacaca" :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 113 :width normal :foundry "unknown" :family "Droid Sans Mono")))))
+ '(default ((t (:inherit nil :stipple nil :background "#202020" :foreground "#cacaca" :inverse-video nil 
+			 :box nil :strike-through nil :overline nil :underline nil :slant normal 
+			 :weight normal :height 113 :width normal :foundry "unknown" :family "Droid Sans Mono")))))
 
