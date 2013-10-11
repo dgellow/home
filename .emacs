@@ -48,6 +48,14 @@
 (require 'haml-mode)
 
 ;;--------------------------------------------------------------------
+;; CoffeScript
+(defun coffee-custom ()
+  "coffee-mode-hook"
+  (define-key coffee-mode-map [(meta r)] 'coffee-compile-buffer))
+
+(add-hook 'coffee-mode-hook '(lambda () (coffee-custom)))
+
+;;--------------------------------------------------------------------
 ;; Save minibuffer history
 (savehist-mode 1)
 
