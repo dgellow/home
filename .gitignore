@@ -20,10 +20,10 @@
 !/.profile
 
 # Screenshots
-!/Images/
-/Images/*
-!/Images/Captures/
-!/Images/Working/
+#!/Images/
+#/Images/*
+#!/Images/Captures/
+#!/Images/Working/
 
 # Vim
 !/.vimrc
