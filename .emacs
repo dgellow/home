@@ -2,7 +2,7 @@
 (require 'misc)
 
 ;; Custom functions
-(add-to-list 'load-path "~/.emacs.d/functions")
+(add-to-list 'load-path "~/.emacs.d/functions/")
 
 ;; Packages repositories
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
