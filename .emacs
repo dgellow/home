@@ -150,6 +150,12 @@
 	(setq scroll-step 1)) ;; keyboard scroll one line at a time
 
 ;;--------------------------------------------------------------------
+;; Scroll up & down without moving the cursor
+
+(global-set-key [(meta p)] 'scroll-up-line)
+(global-set-key [(meta n)] 'scroll-down-line)
+
+;;--------------------------------------------------------------------
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
