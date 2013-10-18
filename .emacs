@@ -129,7 +129,7 @@
 	 (if fs (progn (x-send-client-message nil 0 nil "_NET_WM_STATE" 32
 					      '(1 "_NET_WM_STATE_FULLSCREEN" 0))
 		       (add-hook 'window-configuration-change-hook 'fullscreen-margins))))
-	(t (menu-bar-mode 1) (tool-bar-mode 1) (scroll-bar-mode 1)
+	(t (menu-bar-mode 1) (scroll-bar-mode 1)
 	   (when (frame-parameter nil 'fullscreen)
 	     (remove-hook 'window-configuration-change-hook 'fullscreen-margins)
 	     (x-send-client-message nil 0 nil "_NET_WM_STATE" 32
