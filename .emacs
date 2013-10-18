@@ -1,8 +1,8 @@
 (require 'cl)
+(require 'misc)
 
 ;; Custom functions
 (add-to-list 'load-path "~/.emacs.d/functions")
-(require 'misc)
 
 ;; Packages repositories
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
