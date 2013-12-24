@@ -17,8 +17,17 @@ alias visudo='sudo -E visudo'
 # Disable xterm <C-S> freezed mode
 stty stop ''
 
+
+# RVM
+#####
 # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" 
  
 # RVM bash completion
 [[ -r "$HOME/.rvm/scripts/completion" ]] && source "$HOME/.rvm/scripts/completion"
+
+
+# Virtualenvwrapper (Python)
+###########################
+# Load virtualenvwrapper.sh
+source /usr/bin/virtualenvwrapper.sh

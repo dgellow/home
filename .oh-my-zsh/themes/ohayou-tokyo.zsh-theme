@@ -19,6 +19,17 @@
 
 # Thanks to Steve Losh: http://stevelosh.com/blog/2009/03/candy-colored-terminal/
 
+
+# PYTHON
+# Determine if we are using a virtualenv.
+function virtualenv_in_use() {
+    ENV=`echo $VIRTUAL_ENV | awk '{n=split($0,a,"/"); print a[n]}'`
+    if [[ -n $ENV ]]; then
+       virtualenv_prompt_info
+    fi
+}
+
+
 # The prompt
 
 PROMPT='%{$fg[black]%}%B[%-1~]%{$fg[magenta]%}[%1d]%b %{$reset_color%}'
@@ -29,6 +40,11 @@ RPROMPT='%{$fg[magenta]%}%B$(git_prompt_info)%b%{$reset_color%}$(git_prompt_ahea
 
 # Add this at the start of RPROMPT to include rvm info showing ruby-version@gemset-name
 RPROMPT='%{$fg[yellow]%}$(~/.rvm/bin/rvm-prompt)%{$reset_color%}'$RPROMPT
+
+# Add this at the start of RPROMPT to include virtualenv info
+RPROMPT='$(virtualenv_in_use)'$RPROMPT
+
+
 
 # local time, color coded by last return code
 time_enabled="%(?.%{$fg[green]%}.%{$fg[red]%})%*%{$reset_color%}"
