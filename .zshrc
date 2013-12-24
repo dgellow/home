@@ -1,7 +1,7 @@
 source $HOME/.profile
 
-# Path to your oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
+# Path to my oh-my-zsh configuration.
+export ZSH=$HOME/.oh-my-zsh
 
 # Load oh-my-zshrc configuration.
 source $ZSH/oh-my-zshrc
