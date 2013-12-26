@@ -21,12 +21,6 @@
 # ZSH
 !/.zshrc
 # !/.zshenv
-!/.oh-my-zsh/
-/.oh-my-zsh/*
-!/.oh-my-zsh/oh-my-zshrc
-!/.oh-my-zsh/themes/
-/.oh-my-zsh/themes/*
-!/.oh-my-zsh/themes/ohayou-tokyo.zsh-theme
 
 # Shell
 !/.profile
